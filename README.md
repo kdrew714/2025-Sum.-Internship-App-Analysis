@@ -1,10 +1,10 @@
 # Internship Application Analysis Dashboard
 
-## Overview
+## Overview 📊
 
 This project visualizes and tracks my internship application journey from Fall 2024 through Spring 2025. The dashboard was created to analyze application patterns, company responses, and interview outcomes using real self-tracked data. It provides insights into response rates, interview progression, and application efficiency over time which will help me reflect on trends and improve future outreach strategies.
 
-## Features
+## Features 🗂️
 
 - Total applications, response time, and screening metrics
 - Interview and rejection rates (overall and monthly)
@@ -13,14 +13,14 @@ This project visualizes and tracks my internship application journey from Fall 2
 - Application sources and job category analysis
 - Dedicated info page with KPI explanations and status definitions
 
-## Tools Used
+## Tools Used 🧰
 
 - Microsoft Excel (data recording and formatting)
 - Power Query (data cleaning and transformation)
 - PowerBI (dashboard creation and data modeling)
 - DAX (custom measures and calculations)
 
-## Data Cleaning & Structuring
+## Data Cleaning & Structuring 🛠️
 
 Using Power Query in Excel and Power BI, I cleaned and transformed the data by:
     - Removing duplicates and normalizing inconsistent status entries
@@ -30,7 +30,7 @@ Using Power Query in Excel and Power BI, I cleaned and transformed the data by:
         - StatusHistory: 1 row per status update per application, allowing multi-round tracking
     - Linking tables via primary keys to follow third normal form (3NF), making the dataset scalable for querying and visualization
 
-## Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA) 📄
 
 I conducted EDA using DAX meausres and PowerBI visualizations to answer questions such as:
     - How many of my applications resulted in a real response, not just an auto email?
@@ -39,7 +39,7 @@ I conducted EDA using DAX meausres and PowerBI visualizations to answer question
     - Which months showed the most effort vs. most rejections?
     - How often did I receive automated inrterviews versus direct outreach from recruiters?
 
-## Preview
+## Preview 📌
 
 ![Dashboard Screenshot 1](https://github.com/kdrew714/2025-Sum.-Internship-App-Analysis/blob/main/Overview%20Dashboard.png)
 ![Dashboard Screenshot 1](https://github.com/kdrew714/2025-Sum.-Internship-App-Analysis/blob/main/Table%20Dashboard.png)
@@ -47,7 +47,7 @@ I conducted EDA using DAX meausres and PowerBI visualizations to answer question
 
 
 
-## Findings
+## Findings 💡
 
 - Out of over 400 applications submitted, only a small percentage of 3.18% passed resume screenings, highlighting the competitive and high-volume nature of early-career recruiting.
 - Only 1.1% of total applications led to real-time interviews, though the interview rate jumped to 4.1% when considering only those that received a response.
@@ -58,20 +58,20 @@ I conducted EDA using DAX meausres and PowerBI visualizations to answer question
 - While a significant portion of applications were submitted to US Fortune 500 companies, the rate of response and interview progression was generally lower compared to other organizations.
 
 
-## Limitations
+## Limitations ⚠️
 
 This project began as a simple Excel tracker intended to summarize high-level application metrics. However, as the number of applications increased, it became clear that I had not captured enough detail about each job opportunity such as role requirements, experience level, company size, or job description keywords.
 
 As a result, the dashboard focuses more on application volume, responses, and outcomes rather than deeper analysis of job traits or matching qualifications. With more structured data on job listings themselves, future versions could explore correlations between specific job features and response quality or interview success.
 
-## Future Plans
+## Future Plans 🔭
 
 - Migrate data to a relational database (e.g., PostgreSQL) for scalability
 - Track additional details like job requirements, experience level, company size
 - Build comparative analysis across job sources and positions
 - Automate weekly updates and trend summaries
 
-## License
+## License 📋
 
 This project is for educational and personal use.
 
