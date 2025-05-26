@@ -41,9 +41,10 @@ I conducted EDA using DAX meausres and PowerBI visualizations to answer question
 
 ## Preview
 
-![Dashboard Screenshot](link-to-dashboard-screenshot.png)
+![Dashboard Screenshot 1](https://github.com/kdrew714/2025-Sum.-Internship-App-Analysis/blob/main/Overview%20Dashboard.png)
+![Dashboard Screenshot 1](https://github.com/kdrew714/2025-Sum.-Internship-App-Analysis/blob/main/Table%20Dashboard.png)
 
-*Replace with a working image link or upload to GitHub and reference the path.*
+
 
 
 ## Findings
