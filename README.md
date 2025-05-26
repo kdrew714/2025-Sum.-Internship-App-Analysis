@@ -4,15 +4,6 @@
 
 This project visualizes and tracks my internship application journey from Fall 2024 through Spring 2025. The dashboard was created to analyze application patterns, company responses, and interview outcomes using real self-tracked data. It provides insights into response rates, interview progression, and application efficiency over time which will help me reflect on trends and improve future outreach strategies.
 
-## Features 🗂️
-
-- Total applications, response time, and screening metrics
-- Interview and rejection rates (overall and monthly)
-- Application outcomes breakdown (including auto interviews)
-- Visuals for interview rounds and timelines
-- Application sources and job category analysis
-- Dedicated info page with KPI explanations and status definitions
-
 ## Tools Used 🧰
 
 - Microsoft Excel (data recording and formatting)
@@ -21,6 +12,7 @@ This project visualizes and tracks my internship application journey from Fall 2
 - DAX (custom measures and calculations)
 
 ## Data Cleaning & Structuring 🛠️
+[📥 Download Dataset (Excel)](https://github.com/kdrew714/2025-Sum.-Internship-App-Analysis/blob/main/Internship%20Application%20Dataset.xlsx)
 
 Using Power Query in Excel and Power BI, I cleaned and transformed the data by:
 
@@ -31,22 +23,32 @@ Using Power Query in Excel and Power BI, I cleaned and transformed the data by:
     - StatusHistory: 1 row per status update per application, allowing multi-round tracking
 - Linking tables via primary keys to follow third normal form (3NF), making the dataset scalable for querying and visualization
 
+  
+
 ## Exploratory Data Analysis (EDA) 📄
 
 I conducted EDA using DAX meausres and PowerBI visualizations to answer questions such as:
-    - How many of my applications resulted in a real response, not just an auto email?
-    - How long did it tkae on average to receive a response and how did that change over time?
-    - Are there companies where I consistently reached later rounds?
-    - Which months showed the most effort vs. most rejections?
-    - How often did I receive automated inrterviews versus direct outreach from recruiters?
+
+- How many of my applications resulted in a real response, not just an auto email?
+- How long did it tkae on average to receive a response and how did that change over time?
+- Are there companies where I consistently reached later rounds?
+- Which months showed the most effort vs. most rejections?
+- How often did I receive automated inrterviews versus direct outreach from recruiters?
 
 ## Preview 📌
+[📎 Download Dashboard (PowerBI)](https://github.com/kdrew714/2025-Sum.-Internship-App-Analysis/blob/main/2025%20Sum.%20Internship%20App%20Analysis%20Dashboard.pbix)
 
 ![Dashboard Screenshot 1](https://github.com/kdrew714/2025-Sum.-Internship-App-Analysis/blob/main/Overview%20Dashboard.png)
 ![Dashboard Screenshot 1](https://github.com/kdrew714/2025-Sum.-Internship-App-Analysis/blob/main/Table%20Dashboard.png)
 
+### Features 🗂️
 
-
+- Total applications, response time, and screening metrics
+- Interview and rejection rates (overall and monthly)
+- Application outcomes breakdown (including auto interviews)
+- Visuals for interview rounds and timelines
+- Application sources and job category analysis
+- Dedicated info page with KPI explanations and status definitions
 
 ## Findings 💡
 
