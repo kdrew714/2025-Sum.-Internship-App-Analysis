@@ -23,12 +23,13 @@ This project visualizes and tracks my internship application journey from Fall 2
 ## Data Cleaning & Structuring 🛠️
 
 Using Power Query in Excel and Power BI, I cleaned and transformed the data by:
-    - Removing duplicates and normalizing inconsistent status entries
-    - Using TRIM, PROPER, and conditional columns to standardize formatting
-    - Splitting the original flat file into multiple normalized tables:
-        - Applications: 1 row per application, with company, role, semester, and source
-        - StatusHistory: 1 row per status update per application, allowing multi-round tracking
-    - Linking tables via primary keys to follow third normal form (3NF), making the dataset scalable for querying and visualization
+
+- Removing duplicates and normalizing inconsistent status entries
+- Using TRIM, PROPER, and conditional columns to standardize formatting
+- Splitting the original flat file into multiple normalized tables:
+    - Applications: 1 row per application, with company, role, semester, and source
+    - StatusHistory: 1 row per status update per application, allowing multi-round tracking
+- Linking tables via primary keys to follow third normal form (3NF), making the dataset scalable for querying and visualization
 
 ## Exploratory Data Analysis (EDA) 📄
 
